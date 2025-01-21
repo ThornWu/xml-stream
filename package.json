@@ -8,28 +8,21 @@
   ],
   "license": "MIT",
   "version": "0.4.5",
-  "author": "AssistUnion <info@assistunion.com>",
-  "maintainers": [
-    "Anatoly Ressin <anatoly@assistunion.com>",
-    "Dimitry Solovyov <dimituri@gmail.com> (http://100-hour.com)"
-  ],
   "scripts": {
-    "test": "mocha tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/assistunion/xml-stream.git"
+    "test": "jest"
   },
   "dependencies": {
     "iconv": "^2.1.4",
-    "node-expat": "^2.3.7",
-    "readable-stream": "^1.0.31"
+    "node-expat": "^2.3.7"
+  },
+  "engines": {
+    "node": ">=16.9.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "main": "index",
   "devDependencies": {
-    "mocha": "^1.21.4"
+    "jest": "^29.7.0"
   }
 }
